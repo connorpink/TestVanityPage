@@ -1,10 +1,10 @@
+
 .navbar-default{
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
+    
     padding: 1em;
 }
-.jumbotron>p:after {
+
+.jumbotron>h1:after {
     background: #156491!important;
     content: '';
     display: block;
@@ -17,3 +17,43 @@
     margin-bottom: 30px;
 }
 
+.navbox{
+    background-position: 50% 50%;
+    height:250px!important;
+    background-image: url(/Includes/Hyatt-Place-Toronto-Mississauga-Centre-R005-Prefunction-Space.16x9.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top:1em;
+}
+@media(min-width:767px)
+{
+    .navbox{
+        height:500px!important;
+    }
+}
+.navbar-brand{
+    height: inherit;
+    padding: inherit;
+}
+
+
+.container-fluid{
+    display:block;
+    justify-content: center;
+}
+.navbar-nav{
+    margin: 7.5px -15px;
+}
+
+.nav{
+    padding: revert;
+}
+
+.jumbotron>h1{
+    color:#0072ce;
+    font-size:40px;
+    font-weight: 700;
+}
+.jumbotron{
+    margin-top:15px;
+}
